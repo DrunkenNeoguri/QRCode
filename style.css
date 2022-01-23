@@ -81,6 +81,26 @@ body {
 
 
 
+/** moblie size **/
+
+@media(max-width:375px) {
+
+    body {
+        max-width: 300px;
+    }
+
+    .card {
+        margin-top:2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card .QRCodeImage, .card .QRCodeImage img{
+        max-width: 280px;
+    }
+
+}
+
+
 /** attribution **/
 
 .attribution { 
