@@ -44,9 +44,14 @@ body {
 /** QR Code Image**/
 
 .card .QRCodeImage {
-    margin:1rem;
-    padding:1rem;
+    max-width: 300px;
 }
+
+.card .QRCodeImage img {
+    max-width: 300px;
+    border-radius: 1rem;
+}
+
 
 
 
@@ -63,10 +68,15 @@ body {
 
 .card .QRCodeDescription h1 {
     color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
 }
 
 .card .QRCodeDescription p {
     color: hsl(220, 15%, 55%);
+    font-size: 1rem;
+    margin:0;
+    padding:1rem;
+    padding-top:0;
 }
 
 
